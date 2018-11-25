@@ -1,0 +1,20 @@
+<div class="window-frame">
+  <div class="wrapper">
+    <form (ngSubmit)="signUp()">
+      <div class="row" style="width: 50%; display: block; margin: auto; padding-top: 150px">
+        <header>Rejestracja</header>
+        <div class="col-sm-12 form-group">
+          <label for="email">Email</label>
+          <input class="form-control" name="email" [(ngModel)]="credentials.Email">
+        </div>
+        <div class="col-sm-12 form-group">
+          <label for="password">Hasło</label>
+          <input class="form-control" type="password" name="password" [(ngModel)]="credentials.Password">
+        </div>
+        <div class="col-sm-12">
+          <button class="btn btn-primary float-right">Zarejestruj</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

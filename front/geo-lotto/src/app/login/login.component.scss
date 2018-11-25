@@ -1,0 +1,142 @@
+// header{
+//     font-size: 24pt;
+//     text-align: center;
+//     margin-bottom: 5pt;
+//     color: rgb(74, 74, 74);
+//     font-weight: 700;
+// }
+
+// label {
+//     font-size: 12pt;
+//     color: rgb(74, 74, 74);
+//     font-weight: 500;
+// }
+
+// .btn-primary {
+//     width: 180pt;
+//     height: 40pt;
+//     background-color: rgb(231, 60, 127);
+//     border: 0;
+//     text-transform: uppercase;
+//     letter-spacing: 1.2pt;
+//     font-weight: 500pt;
+//     font-weight: 700;
+// }
+
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+  width: 120pt;
+  height: 25pt;
+  letter-spacing: 0.2pt;
+  color: rgb(231, 60, 127);
+  background-color: white;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+a {
+  color: rgb(231, 60, 127);
+  font-size: 12pt;
+  letter-spacing: 0.2pt;
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-size: 10pt;
+  color: rgb(74, 74, 74);
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.2pt;
+}
+
+h2 {
+  font-size: 12pt;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(74, 74, 74);
+  letter-spacing: 0.2pt;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  width: 80%;
+  margin-bottom: 10px;
+  color: #fff;
+  &:last-child {
+    margin-bottom: 30px;
+  }
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+.login-circle {
+  border-radius: 40px;
+  background-color: white;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.split-left {
+  height: 450px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  padding-top: 45px;
+}
+
+.split-right {
+  height: 450px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  background: rgb(231, 60, 127);
+  padding-top: 60px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  align-items: center;
+  -webkit-box-shadow: 1px 0px 22px 1px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 1px 0px 22px 1px rgba(0, 0, 0, 0.23);
+  box-shadow: 1px 0px 22px 1px rgba(0, 0, 0, 0.23);
+}
+
+.centered-right h2 {
+  margin-top: 20px;
+  font-size: 19pt;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.2pt;
+}
+
+.centered-right p {
+  font-size: 12pt;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.2pt;
+}
+
+.window-frame {
+  height: calc(100vh - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
